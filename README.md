@@ -14,3 +14,10 @@ dotnet new sln --output Sample
 dotnet new winforms --target-framework-override net6.0  \
     --language VB  --output Sample/TestVB
 ```
+
+- Step 3. プロジェクトをソリューションに追加
+
+```
+pushd Sample/
+dotnet sln add TestVB
+```
